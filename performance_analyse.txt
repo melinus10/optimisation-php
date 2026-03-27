@@ -1,0 +1,51 @@
+
+## front-end 
+
+## seo 
+ 	
+ 	- positionnement des mots clé -> ubersuggest  -> capture d'écrans 
+ 	 
+ 
+ 	- contenu des headers title et balises non optimisé avec des mots clés
+ 	  
+ 	- balise title hello carousel controller pas parlant -> changé dans le code 
+ 	
+ 	- manque d'attributs alt pour images 
+ 	
+ 	- manque de balise canonical pour éviter l'auto plagiat  
+ 	
+ 	- pas de fichier robot.txt pour permettre l'indexation au niveau des moteurs de recherche 
+ 	 
+ 	- manque de sitemaps.xml pour indiquer la structure du site 
+ 	
+	- manque de schema markup pour permettre aux robots d'indexation de saisir plus précisément le sens des pages indexées.
+
+
+- site écrit en javaScript 
+
+- score seo de light house ->  capture d'ecrans 
+- qu'est ce qui ne va pas LightHouse :  
+
+- les images sont lentes à charger quand on scroll , les images sont trop lourdes et plus volumineuse que nécessaire (1167 x 776) pour ses dimensions d'affichage (84 x 56)
+le LCP explose ( capture d'ecran ) 
+
+- utilisation du format jpg , convertir en un autre format 
+réduire le temps de chargement des images ( capture d'ecran )  
+
+- utilisation de temps de cache suffisants pour accélerer les visites récurrentes au site 
+et éviter de tout recharger à chaque visite et améliorer le LCP 
+
+- render-blocking requests : assets/styles/app.css bloque le rendu et fait que la page met plus longtemps à charger , le navigateur attend que tout le CSS soit chargé et appliquer avant d'afficher le contenu et le css généré est trés lourd -> affichage du css de base dans le header et le reste du fichier en différé ( capture decrans le avant et aprés ) 
+
+<link rel="stylesheet" href="app.css"> le navigateur attend que ce fichier soit téléchargé avant d’afficher le contenu Donc LCP 
+
+
+
+- Search engines are unable to include your pages in search results if they don't have permission to crawl them
+- pareil pour les liens 
+- document sans méta description 
+
+
+
+
+
